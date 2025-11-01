@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    align-items: center;
+    background-color: lightblue;
+    padding: 15px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    list-style: none;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.section{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: url(https://t4.ftcdn.net/jpg/08/56/45/37/240_F_856453743_fUD0l94ehJyTJIDUHFDxxFZRtflvCMq5.jpg) no-repeat center center/cover;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    flex-direction: column;
+}
+
